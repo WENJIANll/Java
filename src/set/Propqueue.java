@@ -1,8 +1,6 @@
 package set;
 
-import java.util.Comparator;
-import java.util.PriorityQueue;
-import java.util.Queue;
+import java.util.*;
 
 public class Propqueue {
     public static void main(String[] args) {
@@ -28,6 +26,12 @@ public class Propqueue {
         System.out.println(q.poll()); // Bob/A1
         System.out.println(q.poll()); // Alice/A2
         System.out.println(q.poll()); // null,因为队列为空
+
+        // Deque<String> deque = new Deque<>();
+        // 所以
+        Deque<String> deque = new LinkedList<>();
+        // 我们发现LinkedList真是一个全能选手，它即是List，又是Queue，还是Deque。但是我们在使用的时候，总是用特定的接口来引用它，这是因为持有接口说明代码的抽象层次更高，而且接口本身定义的方法代表了特定的用途。
+        // 可见面向抽象编程的一个原则就是：尽量持有接口，而不是具体的实现类。
     }
 }
 

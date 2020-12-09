@@ -5,7 +5,7 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.util.Properties;
 
-public class Pack {
+public class PackProperties {
     public static void main(String[] args) throws IOException {
         String f = "src/setting.properties";
         Properties props = new Properties();

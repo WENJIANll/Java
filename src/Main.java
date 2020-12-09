@@ -1,5 +1,5 @@
 import set.Main.*;
-import set.Pack;
+import set.PackProperties;
 
 public class Main {
     public static void main(String[] args) {
@@ -7,7 +7,7 @@ public class Main {
         System.out.println("Hello World");
         Hello h = new Hello();
         h.hello();
-        Pack p = new Pack();
+        PackProperties p = new PackProperties();
         System.out.println(p);
     }
 }
