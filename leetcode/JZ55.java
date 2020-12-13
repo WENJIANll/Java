@@ -32,7 +32,7 @@ public class JZ55 {
 
     public static void main(String[] args) {
     }
-    
+
 
     static class Solution {
         public int maxDepth(TreeNode root) {
