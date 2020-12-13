@@ -12,8 +12,12 @@ public class Iteratoror {
         tlist.add("wenjian");
         tlist.add("wuwuwu");
         tlist.add("yyyyyy");
-        for (String s : tlist) {
-            System.out.println(s);
+//        for (String s : tlist) {
+//            System.out.println(s);
+//        }
+        Teacherlist.@NotNull Teacherlisttor it = tlist.iterator();
+        while (it.hasNext()){
+            System.out.println(it.next());
         }
     }
 }
