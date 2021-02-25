@@ -1,5 +1,6 @@
 package date;
 
+import java.math.BigInteger;
 import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.time.LocalTime;
@@ -8,6 +9,8 @@ import java.util.Date;
 
 public class Datete {
     public static void main(String[] args) {
+
+        BigInteger bi = new BigInteger("1234567890");
 
         LocalDate d = LocalDate.now(); // 当前日期
         LocalTime t = LocalTime.now(); // 当前时间
