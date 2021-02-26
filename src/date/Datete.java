@@ -6,9 +6,17 @@ import java.time.LocalDateTime;
 import java.time.LocalTime;
 import java.time.format.DateTimeFormatter;
 import java.util.Date;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
 
 public class Datete {
     public static void main(String[] args) {
+
+
+        ExecutorService executorService = Executors.newCachedThreadPool();
+        Executors.newSingleThreadExecutor();
+        Executors.newFixedThreadPool(5);
+
 
         BigInteger bi = new BigInteger("1234567890");
 
